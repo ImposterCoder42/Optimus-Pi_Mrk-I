@@ -1,7 +1,7 @@
 
 # Optimus-Pi Mrk-I
 
-### **[YouTube - Mrk-I Build]('https://www.youtube.com/playlist?list=PLiymVw0QSna0sIXzzXjwf6gSb4iDrXdEi')**
+[YouTube - Mrk-I Build]('https://www.youtube.com/playlist?list=PLiymVw0QSna0sIXzzXjwf6gSb4iDrXdEi')
 
 Hello World!\
 There will be a more descriptive README coming at the end of the build.\
