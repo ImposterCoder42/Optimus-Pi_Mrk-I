@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/optimus_hardware/optimus_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/optimus_hardware/optimus_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/optimus_hardware/optimus_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/optimus_hardware/optimus_hardware.egg-info/requires.txt
+writing top-level names to ../../build/optimus_hardware/optimus_hardware.egg-info/top_level.txt
+reading manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/optimus/optimus_ws/install/optimus_hardware/share/optimus_hardware
+running install_egg_info
+Copying ../../build/optimus_hardware/optimus_hardware.egg-info to /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware-0.0.1-py3.12.egg-info
+running install_scripts
+Installing controller_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+writing list of installed files to '/home/optimus/optimus_ws/build/optimus_hardware/install.log'

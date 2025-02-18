@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001266] (-) JobUnselected: {'identifier': 'optimus_interfaces'}
+[0.002167] (optimus_hardware) JobQueued: {'identifier': 'optimus_hardware', 'dependencies': OrderedDict()}
+[0.002981] (optimus_hardware) JobStarted: {'identifier': 'optimus_hardware'}
+[0.099085] (-) TimerEvent: {}
+[0.199807] (-) TimerEvent: {}
+[0.300989] (-) TimerEvent: {}
+[0.401655] (-) TimerEvent: {}
+[0.502310] (-) TimerEvent: {}
+[0.602928] (-) TimerEvent: {}
+[0.703632] (-) TimerEvent: {}
+[0.804334] (-) TimerEvent: {}
+[0.904923] (-) TimerEvent: {}
+[1.005680] (-) TimerEvent: {}
+[1.106623] (-) TimerEvent: {}
+[1.207608] (-) TimerEvent: {}
+[1.308171] (-) TimerEvent: {}
+[1.408853] (-) TimerEvent: {}
+[1.509546] (-) TimerEvent: {}
+[1.610182] (-) TimerEvent: {}
+[1.710818] (-) TimerEvent: {}
+[1.811445] (-) TimerEvent: {}
+[1.912029] (-) TimerEvent: {}
+[2.012661] (-) TimerEvent: {}
+[2.113298] (-) TimerEvent: {}
+[2.214046] (-) TimerEvent: {}
+[2.314896] (-) TimerEvent: {}
+[2.415645] (-) TimerEvent: {}
+[2.516480] (-) TimerEvent: {}
+[2.617512] (-) TimerEvent: {}
+[2.718162] (-) TimerEvent: {}
+[2.818971] (-) TimerEvent: {}
+[2.919696] (-) TimerEvent: {}
+[3.020355] (-) TimerEvent: {}
+[3.120996] (-) TimerEvent: {}
+[3.221646] (-) TimerEvent: {}
+[3.322418] (-) TimerEvent: {}
+[3.423365] (-) TimerEvent: {}
+[3.524179] (-) TimerEvent: {}
+[3.625101] (-) TimerEvent: {}
+[3.725723] (-) TimerEvent: {}
+[3.826346] (-) TimerEvent: {}
+[3.926936] (-) TimerEvent: {}
+[4.027546] (-) TimerEvent: {}
+[4.128208] (-) TimerEvent: {}
+[4.228968] (-) TimerEvent: {}
+[4.329644] (-) TimerEvent: {}
+[4.430295] (-) TimerEvent: {}
+[4.530961] (-) TimerEvent: {}
+[4.631863] (-) TimerEvent: {}
+[4.634915] (optimus_hardware) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/optimus/optimus_ws/build/optimus_hardware/build', '--no-deps', 'symlink_data'], 'cwd': '/home/optimus/optimus_ws/build/optimus_hardware', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'optimus', 'SSH_CLIENT': '192.168.1.187 50650 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/optimus/.vscode-server/cli/servers/Stable-e249dada235c2083c83813bd65b7f4707fb97b76/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/optimus/.vscode-server/cli/servers/Stable-e249dada235c2083c83813bd65b7f4707fb97b76/server/bin/helpers/browser.sh', 'HOME': '/home/optimus', 'OLDPWD': '/home/optimus/.vscode-server', 'TERM_PROGRAM_VERSION': '1.97.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-a478d854-7f0d-411f-8d85-e41c17df342b.sock', 'DEBUGPY_ADAPTER_ENDPOINTS': '/tmp/noConfigDebugAdapterEndpoints-829544414d9902ab9b73/debuggerAdapterEndpoint.txt', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/optimus/.vscode-server/cli/servers/Stable-e249dada235c2083c83813bd65b7f4707fb97b76/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/optimus/.vscode-server/cli/servers/Stable-e249dada235c2083c83813bd65b7f4707fb97b76/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/optimus/optimus_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'optimus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/optimus/.vscode-server/cli/servers/Stable-e249dada235c2083c83813bd65b7f4707fb97b76/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-cbfb603949.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/optimus/optimus_ws/build/optimus_hardware', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.187 50650 192.168.1.48 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages:/home/optimus/optimus_ws/build/optimus_hardware:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.732028] (-) TimerEvent: {}
+[4.832686] (-) TimerEvent: {}
+[4.933367] (-) TimerEvent: {}
+[5.034014] (-) TimerEvent: {}
+[5.134774] (-) TimerEvent: {}
+[5.235376] (-) TimerEvent: {}
+[5.335991] (-) TimerEvent: {}
+[5.436614] (-) TimerEvent: {}
+[5.537192] (-) TimerEvent: {}
+[5.637810] (-) TimerEvent: {}
+[5.738437] (-) TimerEvent: {}
+[5.839008] (-) TimerEvent: {}
+[5.939644] (-) TimerEvent: {}
+[6.040206] (-) TimerEvent: {}
+[6.140809] (-) TimerEvent: {}
+[6.218475] (optimus_hardware) StdoutLine: {'line': b'running develop\n'}
+[6.240966] (-) TimerEvent: {}
+[6.341675] (-) TimerEvent: {}
+[6.442299] (-) TimerEvent: {}
+[6.542864] (-) TimerEvent: {}
+[6.643488] (-) TimerEvent: {}
+[6.744166] (-) TimerEvent: {}
+[6.844814] (-) TimerEvent: {}
+[6.945506] (-) TimerEvent: {}
+[7.046143] (-) TimerEvent: {}
+[7.146900] (-) TimerEvent: {}
+[7.247525] (-) TimerEvent: {}
+[7.279468] (optimus_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[7.347677] (-) TimerEvent: {}
+[7.368842] (optimus_hardware) StdoutLine: {'line': b'writing optimus_hardware.egg-info/PKG-INFO\n'}
+[7.370462] (optimus_hardware) StdoutLine: {'line': b'writing dependency_links to optimus_hardware.egg-info/dependency_links.txt\n'}
+[7.371949] (optimus_hardware) StdoutLine: {'line': b'writing entry points to optimus_hardware.egg-info/entry_points.txt\n'}
+[7.373160] (optimus_hardware) StdoutLine: {'line': b'writing requirements to optimus_hardware.egg-info/requires.txt\n'}
+[7.374481] (optimus_hardware) StdoutLine: {'line': b'writing top-level names to optimus_hardware.egg-info/top_level.txt\n'}
+[7.447832] (-) TimerEvent: {}
+[7.548446] (-) TimerEvent: {}
+[7.565496] (optimus_hardware) StdoutLine: {'line': b"reading manifest file 'optimus_hardware.egg-info/SOURCES.txt'\n"}
+[7.612476] (optimus_hardware) StdoutLine: {'line': b"writing manifest file 'optimus_hardware.egg-info/SOURCES.txt'\n"}
+[7.649072] (-) TimerEvent: {}
+[7.749719] (-) TimerEvent: {}
+[7.773521] (optimus_hardware) StdoutLine: {'line': b'running build_ext\n'}
+[7.774482] (optimus_hardware) StdoutLine: {'line': b'Creating /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus-hardware.egg-link (link to .)\n'}
+[7.783715] (optimus_hardware) StdoutLine: {'line': b'Installing controller_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware\n'}
+[7.786555] (optimus_hardware) StdoutLine: {'line': b'\n'}
+[7.787396] (optimus_hardware) StdoutLine: {'line': b'Installed /home/optimus/optimus_ws/build/optimus_hardware\n'}
+[7.788884] (optimus_hardware) StdoutLine: {'line': b'running symlink_data\n'}
+[7.849994] (-) TimerEvent: {}
+[7.951049] (-) TimerEvent: {}
+[7.953344] (optimus_hardware) CommandEnded: {'returncode': 0}
+[8.007196] (optimus_hardware) JobEnded: {'identifier': 'optimus_hardware', 'rc': 0}
+[8.010141] (-) EventReactorShutdown: {}

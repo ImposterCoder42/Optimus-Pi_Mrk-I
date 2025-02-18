@@ -1,0 +1,33 @@
+running develop
+Removing /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus-hardware.egg-link (link to .)
+running egg_info
+writing ../../build/optimus_hardware/optimus_hardware.egg-info/PKG-INFO
+writing dependency_links to ../../build/optimus_hardware/optimus_hardware.egg-info/dependency_links.txt
+writing entry points to ../../build/optimus_hardware/optimus_hardware.egg-info/entry_points.txt
+writing requirements to ../../build/optimus_hardware/optimus_hardware.egg-info/requires.txt
+writing top-level names to ../../build/optimus_hardware/optimus_hardware.egg-info/top_level.txt
+reading manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+running build
+running build_py
+copying optimus_hardware/motor_driver_node.py -> /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware
+copying optimus_hardware/controller_node.py -> /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware
+running install
+running install_lib
+creating /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+copying /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware/__init__.py -> /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+copying /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware/motor_driver_node.py -> /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+copying /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware/controller_node.py -> /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+byte-compiling /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware/motor_driver_node.py to motor_driver_node.cpython-312.pyc
+byte-compiling /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware/controller_node.py to controller_node.cpython-312.pyc
+running install_data
+copying resource/optimus_hardware -> /home/optimus/optimus_ws/install/optimus_hardware/share/ament_index/resource_index/packages
+copying package.xml -> /home/optimus/optimus_ws/install/optimus_hardware/share/optimus_hardware
+running install_egg_info
+Copying ../../build/optimus_hardware/optimus_hardware.egg-info to /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware-0.0.1-py3.12.egg-info
+running install_scripts
+Installing controller_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+Installing motor_driver_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+writing list of installed files to '/home/optimus/optimus_ws/build/optimus_hardware/install.log'

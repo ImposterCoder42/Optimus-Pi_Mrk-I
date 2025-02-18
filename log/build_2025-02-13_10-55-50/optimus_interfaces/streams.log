@@ -1,0 +1,229 @@
+[0.056s] Invoking command in '/home/optimus/optimus_ws/build/optimus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/optimus/optimus_ws/src/optimus_interfaces -DCMAKE_INSTALL_PREFIX=/home/optimus/optimus_ws/install/optimus_interfaces
+[1.091s] -- The C compiler identification is GNU 13.3.0
+[1.941s] -- The CXX compiler identification is GNU 13.3.0
+[2.055s] -- Detecting C compiler ABI info
+[2.614s] -- Detecting C compiler ABI info - done
+[2.650s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.652s] -- Detecting C compile features
+[2.654s] -- Detecting C compile features - done
+[2.707s] -- Detecting CXX compiler ABI info
+[3.259s] -- Detecting CXX compiler ABI info - done
+[3.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.299s] -- Detecting CXX compile features
+[3.301s] -- Detecting CXX compile features - done
+[3.336s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.164s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.955s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.021s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.923s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[8.786s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[11.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.896s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[14.611s] -- Found PythonExtra: /usr/bin/python3  
+[17.187s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[17.370s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[17.630s] -- Added test 'lint_cmake' to check CMake code style
+[17.641s] -- Added test 'xmllint' to check XML markup files
+[17.664s] -- Configuring done (17.6s)
+[17.857s] -- Generating done (0.2s)
+[17.907s] -- Build files have been written to: /home/optimus/optimus_ws/build/optimus_interfaces
+[17.931s] Invoked command in '/home/optimus/optimus_ws/build/optimus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/optimus/optimus_ws/src/optimus_interfaces -DCMAKE_INSTALL_PREFIX=/home/optimus/optimus_ws/install/optimus_interfaces
+[17.938s] Invoking command in '/home/optimus/optimus_ws/build/optimus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/optimus/optimus_ws/build/optimus_interfaces -- -j4 -l4
+[18.238s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[18.288s] [  2%] Built target ament_cmake_python_copy_optimus_interfaces
+[19.197s] [  2%] Built target optimus_interfaces__rosidl_generator_type_description
+[19.259s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.337s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.738s] running egg_info
+[19.741s] creating optimus_interfaces.egg-info
+[19.890s] writing optimus_interfaces.egg-info/PKG-INFO
+[19.892s] writing dependency_links to optimus_interfaces.egg-info/dependency_links.txt
+[19.892s] writing top-level names to optimus_interfaces.egg-info/top_level.txt
+[19.895s] writing manifest file 'optimus_interfaces.egg-info/SOURCES.txt'
+[20.286s] reading manifest file 'optimus_interfaces.egg-info/SOURCES.txt'
+[20.288s] writing manifest file 'optimus_interfaces.egg-info/SOURCES.txt'
+[20.557s] [  8%] Built target ament_cmake_python_build_optimus_interfaces_egg
+[20.720s] [  8%] Built target optimus_interfaces__cpp
+[20.801s] [ 11%] [32mBuilding C object CMakeFiles/optimus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/optimus_interfaces/msg/detail/motor_inputs__description.c.o[0m
+[20.808s] [ 14%] [32mBuilding C object CMakeFiles/optimus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/optimus_interfaces/msg/detail/motor_inputs__functions.c.o[0m
+[20.818s] [ 17%] [32mBuilding C object CMakeFiles/optimus_interfaces__rosidl_generator_c.dir/rosidl_generator_c/optimus_interfaces/msg/detail/motor_inputs__type_support.c.o[0m
+[21.179s] [ 20%] [32m[1mLinking C shared library liboptimus_interfaces__rosidl_generator_c.so[0m
+[21.407s] [ 20%] Built target optimus_interfaces__rosidl_generator_c
+[21.474s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.480s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.480s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.487s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.936s] [ 35%] [32mBuilding CXX object CMakeFiles/optimus_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/optimus_interfaces/msg/motor_inputs__type_support.cpp.o[0m
+[22.980s] [ 38%] [32mBuilding C object CMakeFiles/optimus_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/optimus_interfaces/msg/detail/motor_inputs__type_support.c.o[0m
+[22.988s] [ 41%] [32mBuilding CXX object CMakeFiles/optimus_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/optimus_interfaces/msg/detail/motor_inputs__type_support.cpp.o[0m
+[23.076s] [ 44%] [32mBuilding CXX object CMakeFiles/optimus_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/optimus_interfaces/msg/detail/dds_fastrtps/motor_inputs__type_support.cpp.o[0m
+[23.242s] [ 47%] [32m[1mLinking C shared library liboptimus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[23.278s] [ 50%] [32m[1mLinking CXX shared library liboptimus_interfaces__rosidl_typesupport_c.so[0m
+[23.452s] [ 50%] Built target optimus_interfaces__rosidl_typesupport_introspection_c
+[23.523s] [ 50%] Built target optimus_interfaces__rosidl_typesupport_c
+[23.527s] [ 52%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.617s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.233s] [ 58%] [32mBuilding CXX object CMakeFiles/optimus_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/optimus_interfaces/msg/motor_inputs__type_support.cpp.o[0m
+[25.657s] [ 61%] [32mBuilding CXX object CMakeFiles/optimus_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/optimus_interfaces/msg/detail/motor_inputs__type_support_c.cpp.o[0m
+[25.672s] [ 64%] [32m[1mLinking CXX shared library liboptimus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[26.019s] [ 64%] Built target optimus_interfaces__rosidl_typesupport_introspection_cpp
+[26.658s] [ 67%] [32m[1mLinking CXX shared library liboptimus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.000s] [ 67%] Built target optimus_interfaces__rosidl_typesupport_fastrtps_cpp
+[27.278s] [ 70%] [32m[1mLinking CXX shared library liboptimus_interfaces__rosidl_typesupport_cpp.so[0m
+[27.506s] [ 70%] Built target optimus_interfaces__rosidl_typesupport_cpp
+[28.214s] [ 73%] [32m[1mLinking CXX shared library liboptimus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[28.471s] [ 73%] Built target optimus_interfaces__rosidl_typesupport_fastrtps_c
+[28.591s] [ 73%] Built target optimus_interfaces
+[28.710s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.911s] [ 76%] Built target optimus_interfaces__py
+[30.030s] [ 79%] [32mBuilding C object CMakeFiles/optimus_interfaces__rosidl_generator_py.dir/rosidl_generator_py/optimus_interfaces/msg/_motor_inputs_s.c.o[0m
+[30.718s] [ 82%] [32m[1mLinking C shared library liboptimus_interfaces__rosidl_generator_py.so[0m
+[30.945s] [ 82%] Built target optimus_interfaces__rosidl_generator_py
+[31.067s] [ 85%] [32mBuilding C object CMakeFiles/optimus_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/optimus_interfaces/_optimus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.072s] [ 88%] [32mBuilding C object CMakeFiles/optimus_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/optimus_interfaces/_optimus_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.076s] [ 91%] [32mBuilding C object CMakeFiles/optimus_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/optimus_interfaces/_optimus_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[31.614s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_c.so[0m
+[31.642s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[31.666s] [100%] [32m[1mLinking C shared module rosidl_generator_py/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[31.806s] [100%] Built target optimus_interfaces_s__rosidl_typesupport_c
+[31.836s] [100%] Built target optimus_interfaces_s__rosidl_typesupport_introspection_c
+[31.860s] [100%] Built target optimus_interfaces_s__rosidl_typesupport_fastrtps_c
+[31.923s] Invoked command in '/home/optimus/optimus_ws/build/optimus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/optimus/optimus_ws/build/optimus_interfaces -- -j4 -l4
+[31.976s] Invoking command in '/home/optimus/optimus_ws/build/optimus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/optimus/optimus_ws/build/optimus_interfaces
+[32.020s] -- Install configuration: ""
+[32.021s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/ament_index/resource_index/rosidl_interfaces/optimus_interfaces
+[32.023s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/msg/MotorInputs.json
+[32.024s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces
+[32.025s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg
+[32.026s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail
+[32.027s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__functions.h
+[32.028s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__type_support.h
+[32.029s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__description.c
+[32.030s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__type_support.c
+[32.032s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__functions.c
+[32.033s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__struct.h
+[32.034s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/rosidl_generator_c__visibility_control.h
+[32.035s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/motor_inputs.h
+[32.037s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/library_path.sh
+[32.038s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/library_path.dsv
+[32.040s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_generator_c.so
+[32.043s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_generator_c.so" to ""
+[32.044s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces
+[32.044s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg
+[32.045s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[32.046s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail
+[32.047s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__rosidl_typesupport_fastrtps_c.h
+[32.048s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_fastrtps_c.so
+[32.052s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[32.052s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces
+[32.053s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg
+[32.053s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[32.054s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail
+[32.054s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__type_support.c
+[32.056s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__rosidl_typesupport_introspection_c.h
+[32.058s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_introspection_c.so
+[32.061s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[32.061s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_c.so
+[32.064s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_c.so" to ""
+[32.065s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces
+[32.065s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg
+[32.066s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/motor_inputs.hpp
+[32.067s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[32.068s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail
+[32.069s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__type_support.hpp
+[32.070s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__traits.hpp
+[32.071s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__struct.hpp
+[32.073s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__builder.hpp
+[32.074s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces
+[32.075s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg
+[32.076s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.079s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail
+[32.080s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/dds_fastrtps
+[32.080s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__rosidl_typesupport_fastrtps_cpp.hpp
+[32.081s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[32.084s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[32.084s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces
+[32.085s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg
+[32.086s] -- Up-to-date: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail
+[32.086s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__type_support.cpp
+[32.087s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/include/optimus_interfaces/optimus_interfaces/msg/detail/motor_inputs__rosidl_typesupport_introspection_cpp.hpp
+[32.089s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_introspection_cpp.so
+[32.092s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[32.093s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_cpp.so
+[32.097s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_typesupport_cpp.so" to ""
+[32.097s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/pythonpath.sh
+[32.098s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/pythonpath.dsv
+[32.099s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces-0.0.0-py3.12.egg-info
+[32.101s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[32.102s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[32.103s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[32.105s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[32.106s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces
+[32.107s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/__init__.py
+[32.108s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[32.112s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/_optimus_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[32.112s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg
+[32.113s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg/__init__.py
+[32.114s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg/_motor_inputs_s.c
+[32.115s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg/_motor_inputs.py
+[32.116s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/_optimus_interfaces_s.ep.rosidl_typesupport_c.c
+[32.118s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_c.so
+[32.120s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/_optimus_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[32.121s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_introspection_c.so
+[32.314s] Listing '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces'...
+[32.315s] Compiling '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/__init__.py'...
+[32.316s] Listing '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg'...
+[32.318s] Compiling '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg/__init__.py'...
+[32.319s] Compiling '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/msg/_motor_inputs.py'...
+[32.347s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[32.350s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[32.352s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_introspection_c.so
+[32.356s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[32.358s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_c.so
+[32.362s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages/optimus_interfaces/optimus_interfaces_s__rosidl_typesupport_c.so" to ""
+[32.363s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_generator_py.so
+[32.367s] -- Set non-toolchain portion of runtime path of "/home/optimus/optimus_ws/install/optimus_interfaces/lib/liboptimus_interfaces__rosidl_generator_py.so" to ""
+[32.367s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/msg/MotorInputs.idl
+[32.369s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/msg/MotorInputs.msg
+[32.370s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/ament_index/resource_index/package_run_dependencies/optimus_interfaces
+[32.372s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/ament_index/resource_index/parent_prefix_path/optimus_interfaces
+[32.373s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/ament_prefix_path.sh
+[32.375s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/ament_prefix_path.dsv
+[32.376s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/path.sh
+[32.378s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/environment/path.dsv
+[32.379s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/local_setup.bash
+[32.380s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/local_setup.sh
+[32.382s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/local_setup.zsh
+[32.383s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/local_setup.dsv
+[32.385s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/package.dsv
+[32.386s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/ament_index/resource_index/packages/optimus_interfaces
+[32.388s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_generator_cExport.cmake
+[32.390s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_generator_cExport-noconfig.cmake
+[32.391s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[32.393s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[32.395s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[32.396s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[32.398s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_cExport.cmake
+[32.399s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[32.401s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_generator_cppExport.cmake
+[32.403s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[32.404s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[32.406s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[32.407s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[32.409s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_cppExport.cmake
+[32.411s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[32.412s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_generator_pyExport.cmake
+[32.414s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/export_optimus_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[32.415s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/rosidl_cmake-extras.cmake
+[32.417s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.418s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[32.420s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[32.421s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.422s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.424s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.426s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfacesConfig.cmake
+[32.427s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/cmake/optimus_interfacesConfig-version.cmake
+[32.428s] -- Installing: /home/optimus/optimus_ws/install/optimus_interfaces/share/optimus_interfaces/package.xml
+[32.437s] Invoked command in '/home/optimus/optimus_ws/build/optimus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/optimus/optimus_ws/build/optimus_interfaces

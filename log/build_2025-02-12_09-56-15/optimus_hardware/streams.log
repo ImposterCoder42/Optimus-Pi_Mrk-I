@@ -1,0 +1,22 @@
+[3.799s] Invoking command in '/home/optimus/optimus_ws/src/optimus_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/optimus_hardware build --build-base /home/optimus/optimus_ws/build/optimus_hardware/build install --record /home/optimus/optimus_ws/build/optimus_hardware/install.log --single-version-externally-managed install_data
+[5.002s] running egg_info
+[5.092s] writing ../../build/optimus_hardware/optimus_hardware.egg-info/PKG-INFO
+[5.093s] writing dependency_links to ../../build/optimus_hardware/optimus_hardware.egg-info/dependency_links.txt
+[5.095s] writing entry points to ../../build/optimus_hardware/optimus_hardware.egg-info/entry_points.txt
+[5.096s] writing requirements to ../../build/optimus_hardware/optimus_hardware.egg-info/requires.txt
+[5.096s] writing top-level names to ../../build/optimus_hardware/optimus_hardware.egg-info/top_level.txt
+[5.282s] reading manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+[5.283s] adding license file 'LICENSE'
+[5.286s] writing manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+[5.286s] running build
+[5.287s] running build_py
+[5.288s] running install
+[5.313s] running install_lib
+[5.407s] running install_data
+[5.408s] copying package.xml -> /home/optimus/optimus_ws/install/optimus_hardware/share/optimus_hardware
+[5.408s] running install_egg_info
+[5.506s] Copying ../../build/optimus_hardware/optimus_hardware.egg-info to /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware-0.0.1-py3.12.egg-info
+[5.511s] running install_scripts
+[6.182s] Installing controller_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+[6.183s] writing list of installed files to '/home/optimus/optimus_ws/build/optimus_hardware/install.log'
+[6.331s] Invoked command in '/home/optimus/optimus_ws/src/optimus_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/optimus_hardware build --build-base /home/optimus/optimus_ws/build/optimus_hardware/build install --record /home/optimus/optimus_ws/build/optimus_hardware/install.log --single-version-externally-managed install_data

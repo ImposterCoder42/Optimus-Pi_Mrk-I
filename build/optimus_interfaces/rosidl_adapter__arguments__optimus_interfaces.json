@@ -1,0 +1,6 @@
+{
+  "package_name": "optimus_interfaces",
+  "non_idl_tuples": [
+    "/home/optimus/optimus_ws/src/optimus_interfaces:msg/MotorInputs.msg"
+  ]
+}

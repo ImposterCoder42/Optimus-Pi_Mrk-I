@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "optimus_interfaces__py",
+		"source" : "/home/optimus/optimus_ws/build/optimus_interfaces/optimus_interfaces__py"
+	}
+}

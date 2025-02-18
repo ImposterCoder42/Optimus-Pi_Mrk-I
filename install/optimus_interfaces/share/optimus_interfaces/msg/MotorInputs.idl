@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from optimus_interfaces/msg/MotorInputs.msg
+// generated code does not contain a copyright notice
+
+
+module optimus_interfaces {
+  module msg {
+    struct MotorInputs {
+      int64 left_motor;
+
+      int64 right_motor;
+    };
+  };
+};

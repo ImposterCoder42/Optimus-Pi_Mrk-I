@@ -1,0 +1,18 @@
+[4.670s] Invoking command in '/home/optimus/optimus_ws/build/optimus_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/optimus/optimus_ws/build/optimus_hardware/build --no-deps symlink_data
+[6.254s] running develop
+[7.316s] running egg_info
+[7.406s] writing optimus_hardware.egg-info/PKG-INFO
+[7.407s] writing dependency_links to optimus_hardware.egg-info/dependency_links.txt
+[7.408s] writing entry points to optimus_hardware.egg-info/entry_points.txt
+[7.409s] writing requirements to optimus_hardware.egg-info/requires.txt
+[7.410s] writing top-level names to optimus_hardware.egg-info/top_level.txt
+[7.598s] reading manifest file 'optimus_hardware.egg-info/SOURCES.txt'
+[7.603s] writing manifest file 'optimus_hardware.egg-info/SOURCES.txt'
+[7.701s] running build_ext
+[7.701s] Creating /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus-hardware.egg-link (link to .)
+[7.704s] Installing controller_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+[7.705s] Installing motor_driver_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+[7.706s] 
+[7.707s] Installed /home/optimus/optimus_ws/build/optimus_hardware
+[7.707s] running symlink_data
+[7.872s] Invoked command in '/home/optimus/optimus_ws/build/optimus_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/optimus/optimus_ws/build/optimus_hardware/build --no-deps symlink_data

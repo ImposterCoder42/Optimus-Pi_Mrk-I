@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "optimus_interfaces/msg/MotorInputs",
+      "fields": [
+        {
+          "name": "left_motor",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "right_motor",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "optimus_interfaces/msg/MotorInputs",
+      "hash_string": "RIHS01_8db62e783f13ff674f336965ea3c73f18e4b44505180a3e614a0052f125034d8"
+    }
+  ]
+}

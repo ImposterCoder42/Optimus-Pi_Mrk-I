@@ -1,0 +1,37 @@
+[4.691s] Invoking command in '/home/optimus/optimus_ws/build/optimus_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/optimus/optimus_ws/build/optimus_hardware/build
+[6.190s] running develop
+[7.320s] Removing /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus-hardware.egg-link (link to .)
+[7.480s] Invoked command in '/home/optimus/optimus_ws/build/optimus_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/optimus/optimus_ws/build/optimus_hardware/build
+[7.486s] Invoking command in '/home/optimus/optimus_ws/src/optimus_hardware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/optimus_hardware build --build-base /home/optimus/optimus_ws/build/optimus_hardware/build install --record /home/optimus/optimus_ws/build/optimus_hardware/install.log --single-version-externally-managed install_data --force
+[8.733s] running egg_info
+[8.823s] writing ../../build/optimus_hardware/optimus_hardware.egg-info/PKG-INFO
+[8.824s] writing dependency_links to ../../build/optimus_hardware/optimus_hardware.egg-info/dependency_links.txt
+[8.825s] writing entry points to ../../build/optimus_hardware/optimus_hardware.egg-info/entry_points.txt
+[8.828s] writing requirements to ../../build/optimus_hardware/optimus_hardware.egg-info/requires.txt
+[8.828s] writing top-level names to ../../build/optimus_hardware/optimus_hardware.egg-info/top_level.txt
+[9.015s] reading manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+[9.018s] adding license file 'LICENSE'
+[9.021s] writing manifest file '../../build/optimus_hardware/optimus_hardware.egg-info/SOURCES.txt'
+[9.021s] running build
+[9.022s] running build_py
+[9.023s] copying optimus_hardware/motor_driver_node.py -> /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware
+[9.024s] copying optimus_hardware/controller_node.py -> /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware
+[9.025s] running install
+[9.050s] running install_lib
+[9.145s] creating /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+[9.146s] copying /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware/__init__.py -> /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+[9.147s] copying /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware/motor_driver_node.py -> /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+[9.148s] copying /home/optimus/optimus_ws/build/optimus_hardware/build/lib/optimus_hardware/controller_node.py -> /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware
+[9.150s] byte-compiling /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware/__init__.py to __init__.cpython-312.pyc
+[9.152s] byte-compiling /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware/motor_driver_node.py to motor_driver_node.cpython-312.pyc
+[9.156s] byte-compiling /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware/controller_node.py to controller_node.cpython-312.pyc
+[9.159s] running install_data
+[9.159s] copying resource/optimus_hardware -> /home/optimus/optimus_ws/install/optimus_hardware/share/ament_index/resource_index/packages
+[9.160s] copying package.xml -> /home/optimus/optimus_ws/install/optimus_hardware/share/optimus_hardware
+[9.161s] running install_egg_info
+[9.259s] Copying ../../build/optimus_hardware/optimus_hardware.egg-info to /home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages/optimus_hardware-0.0.1-py3.12.egg-info
+[9.267s] running install_scripts
+[9.956s] Installing controller_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+[9.957s] Installing motor_driver_node script to /home/optimus/optimus_ws/install/optimus_hardware/lib/optimus_hardware
+[9.960s] writing list of installed files to '/home/optimus/optimus_ws/build/optimus_hardware/install.log'
+[10.109s] Invoked command in '/home/optimus/optimus_ws/src/optimus_hardware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/optimus/optimus_ws/build/optimus_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/optimus_hardware build --build-base /home/optimus/optimus_ws/build/optimus_hardware/build install --record /home/optimus/optimus_ws/build/optimus_hardware/install.log --single-version-externally-managed install_data --force
