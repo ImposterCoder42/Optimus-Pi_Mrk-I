@@ -6,10 +6,10 @@ from optimus_interfaces.msg import MotorInputs
 import RPi.GPIO as GPIO
 
 # Define Pins
-right_motor_pin1 = 36
-right_motor_pin2 = 38
-left_motor_pin1 = 35
-left_motor_pin2 = 37
+right_motor_pin1 = 37
+right_motor_pin2 = 36
+left_motor_pin1 = 40
+left_motor_pin2 = 38
 
 
 # Setup the GPIO

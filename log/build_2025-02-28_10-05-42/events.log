@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.003737] (-) JobUnselected: {'identifier': 'optimus_hardware'}
+[0.004025] (-) JobUnselected: {'identifier': 'optimus_interfaces'}
+[0.004169] (optimus_bringup) JobQueued: {'identifier': 'optimus_bringup', 'dependencies': OrderedDict()}
+[0.008862] (optimus_bringup) JobStarted: {'identifier': 'optimus_bringup'}
+[0.090464] (optimus_bringup) JobProgress: {'identifier': 'optimus_bringup', 'progress': 'cmake'}
+[0.094153] (optimus_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/optimus/optimus_ws/src/optimus_bringup', '-DCMAKE_INSTALL_PREFIX=/home/optimus/optimus_ws/install/optimus_bringup'], 'cwd': '/home/optimus/optimus_ws/build/optimus_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'optimus', 'SSH_CLIENT': '192.168.1.187 50792 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'HOME': '/home/optimus', 'OLDPWD': '/home/optimus/optimus_ws/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-76311e84-40be-4509-9962-fc6e6dcfd34c.sock', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-75c8330de3f6321c.txt', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/optimus/optimus_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'optimus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'PATH': '/opt/ros/jazzy/bin:/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-cbfb603949.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/optimus/optimus_ws/build/optimus_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.187 50792 192.168.1.48 22', 'PYTHONPATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages:/home/optimus/optimus_ws/build/optimus_hardware:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy'}), 'shell': False}
+[0.103691] (-) TimerEvent: {}
+[0.209247] (-) TimerEvent: {}
+[0.310032] (-) TimerEvent: {}
+[0.411769] (-) TimerEvent: {}
+[0.464917] (optimus_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.515777] (-) TimerEvent: {}
+[0.618821] (-) TimerEvent: {}
+[0.719800] (-) TimerEvent: {}
+[0.822406] (-) TimerEvent: {}
+[0.887771] (optimus_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.922669] (-) TimerEvent: {}
+[0.982630] (optimus_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.022927] (-) TimerEvent: {}
+[1.124278] (-) TimerEvent: {}
+[1.225313] (-) TimerEvent: {}
+[1.327317] (-) TimerEvent: {}
+[1.429199] (-) TimerEvent: {}
+[1.530782] (-) TimerEvent: {}
+[1.632365] (-) TimerEvent: {}
+[1.733769] (-) TimerEvent: {}
+[1.843409] (-) TimerEvent: {}
+[1.949221] (-) TimerEvent: {}
+[2.050847] (optimus_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.053221] (-) TimerEvent: {}
+[2.159791] (-) TimerEvent: {}
+[2.211635] (optimus_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.216660] (optimus_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.221739] (optimus_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.263490] (-) TimerEvent: {}
+[2.364916] (-) TimerEvent: {}
+[2.374763] (optimus_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.465248] (-) TimerEvent: {}
+[2.567847] (-) TimerEvent: {}
+[2.679981] (-) TimerEvent: {}
+[2.787802] (-) TimerEvent: {}
+[2.896940] (-) TimerEvent: {}
+[2.999962] (-) TimerEvent: {}
+[3.104940] (-) TimerEvent: {}
+[3.211304] (-) TimerEvent: {}
+[3.314849] (-) TimerEvent: {}
+[3.419319] (-) TimerEvent: {}
+[3.526667] (-) TimerEvent: {}
+[3.634871] (-) TimerEvent: {}
+[3.743934] (-) TimerEvent: {}
+[3.854286] (-) TimerEvent: {}
+[3.967833] (-) TimerEvent: {}
+[4.070419] (-) TimerEvent: {}
+[4.186340] (-) TimerEvent: {}
+[4.289746] (-) TimerEvent: {}
+[4.349394] (optimus_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.392184] (-) TimerEvent: {}
+[4.400878] (optimus_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.411269] (optimus_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.417395] (optimus_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.438636] (optimus_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[4.494487] (-) TimerEvent: {}
+[4.596247] (-) TimerEvent: {}
+[4.697133] (-) TimerEvent: {}
+[4.798735] (-) TimerEvent: {}
+[4.902547] (-) TimerEvent: {}
+[5.003307] (-) TimerEvent: {}
+[5.106405] (-) TimerEvent: {}
+[5.207286] (-) TimerEvent: {}
+[5.308450] (-) TimerEvent: {}
+[5.411645] (-) TimerEvent: {}
+[5.413806] (optimus_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.511796] (-) TimerEvent: {}
+[5.614816] (-) TimerEvent: {}
+[5.717812] (-) TimerEvent: {}
+[5.818627] (-) TimerEvent: {}
+[5.919605] (-) TimerEvent: {}
+[6.020384] (-) TimerEvent: {}
+[6.121358] (-) TimerEvent: {}
+[6.222085] (-) TimerEvent: {}
+[6.324259] (-) TimerEvent: {}
+[6.426024] (-) TimerEvent: {}
+[6.527098] (-) TimerEvent: {}
+[6.628827] (-) TimerEvent: {}
+[6.731716] (-) TimerEvent: {}
+[6.826018] (optimus_bringup) StdoutLine: {'line': b'-- Configuring done (6.7s)\n'}
+[6.832347] (-) TimerEvent: {}
+[6.854644] (optimus_bringup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.867394] (optimus_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/optimus/optimus_ws/build/optimus_bringup\n'}
+[6.893348] (optimus_bringup) CommandEnded: {'returncode': 0}
+[6.897856] (optimus_bringup) JobProgress: {'identifier': 'optimus_bringup', 'progress': 'build'}
+[6.898157] (optimus_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/optimus/optimus_ws/build/optimus_bringup', '--', '-j4', '-l4'], 'cwd': '/home/optimus/optimus_ws/build/optimus_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'optimus', 'SSH_CLIENT': '192.168.1.187 50792 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'HOME': '/home/optimus', 'OLDPWD': '/home/optimus/optimus_ws/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-76311e84-40be-4509-9962-fc6e6dcfd34c.sock', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-75c8330de3f6321c.txt', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/optimus/optimus_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'optimus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'PATH': '/opt/ros/jazzy/bin:/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-cbfb603949.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/optimus/optimus_ws/build/optimus_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.187 50792 192.168.1.48 22', 'PYTHONPATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages:/home/optimus/optimus_ws/build/optimus_hardware:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy'}), 'shell': False}
+[6.932606] (-) TimerEvent: {}
+[7.034151] (-) TimerEvent: {}
+[7.136042] (-) TimerEvent: {}
+[7.202754] (optimus_bringup) CommandEnded: {'returncode': 0}
+[7.214135] (optimus_bringup) JobProgress: {'identifier': 'optimus_bringup', 'progress': 'install'}
+[7.238609] (-) TimerEvent: {}
+[7.346592] (-) TimerEvent: {}
+[7.357460] (optimus_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/optimus/optimus_ws/build/optimus_bringup'], 'cwd': '/home/optimus/optimus_ws/build/optimus_bringup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'optimus', 'SSH_CLIENT': '192.168.1.187 50792 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/helpers/browser.sh', 'HOME': '/home/optimus', 'OLDPWD': '/home/optimus/optimus_ws/src', 'TERM_PROGRAM_VERSION': '1.97.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-76311e84-40be-4509-9962-fc6e6dcfd34c.sock', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-75c8330de3f6321c.txt', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/optimus/optimus_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'optimus', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'PATH': '/opt/ros/jazzy/bin:/home/optimus/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/optimus/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-cbfb603949.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/optimus/optimus_ws/build/optimus_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.187 50792 192.168.1.48 22', 'PYTHONPATH': '/home/optimus/optimus_ws/install/optimus_interfaces/lib/python3.12/site-packages:/home/optimus/optimus_ws/build/optimus_hardware:/home/optimus/optimus_ws/install/optimus_hardware/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/optimus/optimus_ws/install/optimus_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/optimus/optimus_ws/install/optimus_hardware:/opt/ros/jazzy'}), 'shell': False}
+[7.412101] (optimus_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.413398] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/launch\n'}
+[7.415563] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/launch/optimus_mrk_I.launch.xml\n'}
+[7.416386] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/ament_index/resource_index/package_run_dependencies/optimus_bringup\n'}
+[7.422284] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/ament_index/resource_index/parent_prefix_path/optimus_bringup\n'}
+[7.429658] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/environment/ament_prefix_path.sh\n'}
+[7.443612] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/environment/ament_prefix_path.dsv\n'}
+[7.452344] (-) TimerEvent: {}
+[7.459229] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/environment/path.sh\n'}
+[7.470789] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/environment/path.dsv\n'}
+[7.482886] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/local_setup.bash\n'}
+[7.492339] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/local_setup.sh\n'}
+[7.508900] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/local_setup.zsh\n'}
+[7.516698] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/local_setup.dsv\n'}
+[7.522190] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/package.dsv\n'}
+[7.527099] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/ament_index/resource_index/packages/optimus_bringup\n'}
+[7.532179] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/cmake/optimus_bringupConfig.cmake\n'}
+[7.536114] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/cmake/optimus_bringupConfig-version.cmake\n'}
+[7.541187] (optimus_bringup) StdoutLine: {'line': b'-- Installing: /home/optimus/optimus_ws/install/optimus_bringup/share/optimus_bringup/package.xml\n'}
+[7.552835] (-) TimerEvent: {}
+[7.566267] (optimus_bringup) CommandEnded: {'returncode': 0}
+[7.656214] (-) TimerEvent: {}
+[7.761361] (-) TimerEvent: {}
+[7.798917] (optimus_bringup) JobEnded: {'identifier': 'optimus_bringup', 'rc': 0}
+[7.816385] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="optimus_hardware" exec="controller_node" name="controller_node" />
+    <node pkg="optimus_hardware" exec="motor_driver_node" name="motor_driver_node" />
+
+</launch>
